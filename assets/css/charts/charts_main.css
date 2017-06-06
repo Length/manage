@@ -1,0 +1,293 @@
+.widget-area {
+    background-color: #fff;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    float: left;
+    margin-top: 30px;
+    padding: 25px 30px;
+    position: relative;
+    width: 100%;
+}
+
+.widget-title {
+    color: #333333;
+    float: left;
+    font-family: Lato;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    line-height: 34px;
+    margin: -10px 0 20px;
+    // width: 100%;         //加搜索栏时开启
+}
+
+.widget-area.blank {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+// 数据分析
+#graph-wrapper {
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.widget {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.widget-area {
+    background-color: #fff;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.05);
+    float: left;
+    margin-top: 30px;
+    padding: 25px 30px;
+    position: relative;
+    width: 100%;
+}
+
+.widget-area.blank {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+.graph-info {
+    float: left;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+#tooltip,.graph-info a {
+    color: #646464;
+    float: left;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 33px;
+    line-height: 20px;
+}
+
+.graph-info a {
+    cursor: default;
+    display: inline-block;
+    float: left;
+    font-family: open sans;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    margin-right: 28px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.graph-info .returning:before {
+    background: #77b7c5;
+}
+
+.graph-info #bars.graph-tab-btn {
+    margin-left: 8px;
+}
+
+.graph-info .graph-tab-btn {
+    float: right;
+    margin: 0;
+}
+
+.graph-info .graph-tab-btn {
+    background: none repeat scroll 0 0 #fafafa;
+    border: 1px solid #eaeaea;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    width: 32px;
+    z-index: 999;
+}
+
+.graph-info .graph-tab-btn.active {
+    color: #fff;
+    background: #878889;
+    border-color: #878889;
+}
+
+/* Clear Floats */
+.graph-info:before,
+.graph-info:after,
+.graph-container:before,
+.graph-container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.graph-container,
+.graph-container div,
+.graph-container a,
+.graph-container span {
+    margin: 0;
+    padding: 0;
+}
+
+.graph-container {
+    float: left;
+    height: 330px;
+    padding: 0;
+    position: relative;
+    top: -78px;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.graph-container>div {
+    height: 400px;
+    left: 5%;
+    position: absolute;
+    top: 0;
+    width: 90%;
+}
+
+/* Clear Floats */
+.graph-info:before,
+.graph-info:after,
+.graph-container:before,
+.graph-container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.green,
+.status.online>i,
+.mail-list>li>.title>span>.online,
+.keys span.eval,
+.actionBar>a.buttonFinish,
+.compose-btn:hover,
+.friend-list li>span.online:before,
+.contact-form form input[type="submit"] {
+    background: #2dcb73;
+    color: #fff;
+}
+
+.dropdown>a>span.green:before {
+    border-left-color: #2dcb73;
+}
+
+.green,
+.status.online>i,
+.mail-list>li>.title>span>.online,
+.keys span.eval,
+.actionBar>a.buttonFinish,
+.compose-btn:hover,
+.friend-list li>span.online:before,
+.contact-form form input[type="submit"] {
+    background: #2dcb73;
+    color: #fff;
+}
+
+.dropdown>a>span.green:before {
+    border-left-color: #2dcb73;
+}
+
+.dropdown>a>span.blue:before {
+    border-left-color: #6a94ff;
+}
+
+.blue {
+    background: #6a94ff;
+    color: #fff;
+}
+
+.visitors>span {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    float: left;
+    height: 16px;
+    margin-right: 9px;
+    margin-top: 2px;
+    width: 16px;
+}
+
+.returning>span {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    float: left;
+    height: 16px;
+    margin-right: 9px;
+    margin-top: 2px;
+    width: 16px;
+}
+
+.returning>span {
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    float: left;
+    height: 16px;
+    margin-right: 9px;
+    margin-top: 2px;
+    width: 16px;
+}
+
+/* 折线图悬停提醒 */
+#tooltip {
+    position: absolute;
+    display: none;
+    padding: 5px 10px;
+    border: 1px solid #e1e1e1;
+}
+
+
+
+
+
+
+
+
+
+
+

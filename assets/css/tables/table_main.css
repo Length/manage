@@ -1,0 +1,19 @@
+.daterange-filter {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+
+.main-box-header .daterange-filter {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+@media only screen and (max-width: 440px) {
+    #reportrange {
+        clear: both;
+        float: none!important;
+        margin-bottom: 15px;
+    }
+}
